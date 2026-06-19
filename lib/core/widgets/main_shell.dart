@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../theme/app_colors.dart';
 import '../../../features/documents/presentation/screens/documents_screen.dart';
 import '../../../features/home/presentation/screens/home_screen.dart';
 import '../../../features/medications/presentation/screens/medications_screen.dart';

@@ -91,14 +91,14 @@ class _AddDocumentScreenState extends ConsumerState<AddDocumentScreen> {
               onRemove: _capturedPath == null ? null : () => setState(() => _capturedPath = null),
             ),
             const SizedBox(height: AppSpacing.lg),
-            Text('Title', style: AppTextStyles.labelMedium),
+            const Text('Title', style: AppTextStyles.labelMedium),
             const SizedBox(height: 6),
             TextField(
               controller: _titleController,
               decoration: const InputDecoration(hintText: 'e.g. Blood test results - June'),
             ),
             const SizedBox(height: AppSpacing.md),
-            Text('Category', style: AppTextStyles.labelMedium),
+            const Text('Category', style: AppTextStyles.labelMedium),
             const SizedBox(height: 6),
             Wrap(
               spacing: AppSpacing.sm,

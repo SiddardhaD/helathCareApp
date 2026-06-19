@@ -53,7 +53,7 @@ class _SourcePickerSheet extends StatelessWidget {
             ),
           ),
           const SizedBox(height: AppSpacing.lg),
-          Text('Add a photo', style: AppTextStyles.titleLarge),
+          const Text('Add a photo', style: AppTextStyles.titleLarge),
           const SizedBox(height: AppSpacing.lg),
           _OptionTile(
             icon: Icons.camera_alt_rounded,

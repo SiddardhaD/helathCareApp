@@ -37,7 +37,7 @@ class UpdateMedicationUseCase {
     }
 
     final dosageChanged = previous != null && previous.dosage != updated.dosage;
-    final toSave = dosageChanged ? updated.copyWith(previousDosage: previous!.dosage) : updated;
+    final toSave = dosageChanged ? updated.copyWith(previousDosage: previous.dosage) : updated;
 
     return repository.update(toSave);
   }

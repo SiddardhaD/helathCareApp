@@ -1,4 +1,5 @@
-import 'failures.dart';
+
+import 'package:health_companion/core/error/failures.dart';
 
 /// A minimal Result type representing either success ([Ok]) or failure
 /// ([Err]). This avoids pulling in a heavier functional-programming package

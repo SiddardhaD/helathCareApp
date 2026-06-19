@@ -104,8 +104,8 @@ class _MethodSelectView extends ConsumerWidget {
           ),
         ),
         const SizedBox(height: AppSpacing.lg),
-        Row(
-          children: const [
+        const Row(
+          children:  [
             Expanded(child: Divider()),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: AppSpacing.sm),
@@ -120,7 +120,7 @@ class _MethodSelectView extends ConsumerWidget {
           child: const Text('Continue as guest'),
         ),
         const SizedBox(height: AppSpacing.md),
-        Text(
+        const Text(
           'By continuing, you agree to keep your health data private and secure on this device.',
           style: AppTextStyles.bodySmall,
           textAlign: TextAlign.center,
